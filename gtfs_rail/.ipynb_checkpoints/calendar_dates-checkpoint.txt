@@ -1,0 +1,4 @@
+service_id,date,exception_type
+RJUN23-807-1_Weekday-90,20231107,2
+RJUN23-807-1_Weekday-90,20231108,2
+RJUN23-807-1_Weekday-90,20231109,2
