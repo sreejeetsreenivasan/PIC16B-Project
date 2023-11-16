@@ -1,0 +1,141 @@
+,OBJECTID,post_id,latitude,longitude,Name,Lines,Line Color
+31,72744,3306158,33.77360283,-118.1894242,5th Street Station,['Blue'],A
+,72743,3306157,33.76874483,-118.1893742,1st Street Station,['Blue'],A
+0,72713,3306127,33.76807583,-118.1929332,Downtown Long Beach Station,['Blue'],A
+1,72714,3306128,33.77226283,-118.1937122,Pacific Ave Station,['Blue'],A
+2,72715,3306129,33.78183483,-118.1893962,Anaheim Street Station,['Blue'],A
+3,72716,3306130,33.78909483,-118.1893942,Pacific Coast Hwy Station,['Blue'],A
+4,72717,3306131,33.80708383,-118.1898462,Willow Street Station,['Blue'],A
+5,72718,3306132,33.81986983,-118.1961022,Wardlow Station,['Blue'],A
+6,72719,3306133,33.84822684,-118.2110292,Del Amo Station,['Blue'],A
+7,72720,3306134,33.87608684,-118.2225152,Artesia Station,['Blue'],A
+8,72721,3306135,33.89749484,-118.2242612,Compton Station,['Blue'],A
+9,72722,3306136,33.92805284,-118.2375672,Willowbrook - Rosa Parks Station,"['Blue', 'Green']",A
+10,72723,3306137,33.94222484,-118.2431712,103rd Street / Watts Towers  Station,['Blue'],A
+11,72724,3306138,33.95961585,-118.2432172,Firestone Station,['Blue'],A
+12,72725,3306139,33.97374485,-118.2432832,Florence Station,['Blue'],A
+13,72726,3306140,33.98876485,-118.2434102,Slauson Station,['Blue'],A
+14,72727,3306141,34.00292485,-118.2433152,Vernon Station,['Blue'],A
+15,72728,3306142,34.01965485,-118.2430962,Washington Station,['Blue'],A
+16,72729,3306143,34.02681185,-118.2555172,San Pedro Street Station,['Blue'],A
+17,72730,3306144,34.03315985,-118.2693452,Grand / LATTC Station,['Blue'],A
+18,72731,3306145,34.04073985,-118.2661302,Pico Station,"['Blue', 'Expo']",A
+19,72732,3306146,34.04861486,-118.2588342,7th St / Metro Center Station,"['Blue', 'Expo']",A
+127,72840,3306254,34.05475059,-118.2512082,Grand Av Arts/Bunker Hill,"['Blue', 'Expo']",A
+128,72841,3306255,34.05203893,-118.2461664,Historic Broadway,"['Blue', 'Expo']",A
+129,72842,3306256,34.04884218,-118.2387869,Little Tokyo/Arts District,"['Blue', 'Expo']",A
+70,72783,3306197,34.05606586,-118.2347712,Union Station,['Gold'],A
+71,72784,3306198,34.06386586,-118.2358522,Chinatown Station,['Gold'],A
+72,72785,3306199,34.08095386,-118.2204412,Lincoln Heights / Cypress Park Station,['Gold'],A
+73,72786,3306200,34.08723186,-118.2132252,Heritage Square / Arroyo Station,['Gold'],A
+74,72787,3306201,34.09824786,-118.2067242,Southwest Museum Station,['Gold'],A
+75,72788,3306202,34.11118387,-118.1926182,Highland Park Station,['Gold'],A
+76,72789,3306203,34.11519087,-118.1578982,South Pasadena Station,['Gold'],A
+77,72790,3306204,34.13352587,-118.1481382,Fillmore Station,['Gold'],A
+78,72791,3306205,34.14191487,-118.1482262,Del Mar Station,['Gold'],A
+79,72792,3306206,34.14836087,-118.1475242,Memorial Park Station,['Gold'],A
+80,72793,3306207,34.15181087,-118.1314022,Lake Station,['Gold'],A
+81,72794,3306208,34.15242187,-118.1143602,Allen Station,['Gold'],A
+82,72795,3306209,34.14775688,-118.0812242,Sierra Madre Villa Station,['Gold'],A
+90,72803,3306217,34.14286488,-118.0292112,Arcadia Station,['Gold'],A
+91,72804,3306218,34.13315988,-118.0034852,Monrovia Station,['Gold'],A
+92,72805,3306219,34.13252288,-117.9676922,Duarte / City of Hope Station,['Gold'],A
+93,72806,3306220,34.12905288,-117.9325181,Irwindale Station,['Gold'],A
+94,72807,3306221,34.13586788,-117.9066431,Azusa Downtown Station,['Gold'],A
+95,72808,3306222,34.13681889,-117.8916481,APU / Citrus College Station,['Gold'],A
+32,72745,3306159,34.16850886,-118.3768202,North Hollywood Station,['Red'],B
+33,72746,3306160,34.14000686,-118.3627112,Universal / Studio City Station,['Red'],B
+34,72747,3306161,34.10155186,-118.3385612,Hollywood / Highland Station,['Red'],B
+35,72748,3306162,34.10163486,-118.3251922,Hollywood / Vine Station,['Red'],B
+36,72749,3306163,34.10174186,-118.3081292,Hollywood / Western Station,['Red'],B
+37,72750,3306164,34.09771286,-118.2917682,Vermont / Sunset Station,['Red'],B
+38,72751,3306165,34.08991486,-118.2917422,Vermont / Santa Monica Station,['Red'],B
+39,72752,3306166,34.07653086,-118.2916982,Vermont / Beverly Station,['Red'],B
+40,72753,3306167,34.06270585,-118.2900942,Wilshire / Vermont Station,"['Red', 'Purple']",B
+41,72754,3306168,34.05637286,-118.2748912,Westlake / MacArthur Park Station,"['Red', 'Purple']",B
+42,72755,3306169,34.04863885,-118.2586942,7th St / Metro Center Station,"['Red', 'Purple']",B
+43,72756,3306170,34.04932086,-118.2512712,Pershing Square Station,"['Red', 'Purple']",B
+44,72757,3306171,34.05490486,-118.2460692,Civic Center / Grand Park Station,"['Red', 'Purple']",B
+45,72758,3306172,34.05620186,-118.2342612,Union Station,"['Red', 'Purple']",B
+48,72761,3306175,33.89464483,-118.3692082,Redondo Beach Station,['Green'],C
+49,72762,3306176,33.90530383,-118.3831252,Douglas Station,['Green'],C
+50,72763,3306177,33.91606783,-118.3865512,El Segundo Station,['Green'],C
+51,72764,3306178,33.92320483,-118.3875842,Mariposa Station,['Green'],C
+52,72765,3306179,33.92962583,-118.3771462,Aviation / LAX Station,['Green'],C
+53,72766,3306180,33.93341284,-118.3516142,Hawthorne / Lennox Station,['Green'],C
+54,72767,3306181,33.92520584,-118.3265622,Crenshaw Station,['Green'],C
+55,72768,3306182,33.92868784,-118.2917452,Vermont / Athens Station,['Green'],C
+56,72769,3306183,33.92871884,-118.2811122,Harbor Freeway Station,['Green'],C
+57,72770,3306184,33.92746984,-118.2652292,Avalon Station,['Green'],C
+58,72771,3306185,33.92826284,-118.2380642,Willowbrook - Rosa Parks Station,"['Blue', 'Green']",C
+59,72772,3306186,33.92488484,-118.2099572,Long Beach Blvd Station,['Green'],C
+60,72773,3306187,33.91307485,-118.1406122,Lakewood Blvd Station,['Green'],C
+61,72774,3306188,33.91403785,-118.1047292,Norwalk Station,['Green'],C
+47,72760,3306174,34.06169385,-118.3087682,Wilshire / Western Station,['Purple'],D
+46,72759,3306173,34.06175785,-118.3014702,Wilshire / Normandie Station,['Purple'],D
+40,72753,3306167,34.06270585,-118.2900942,Wilshire / Vermont Station,"['Red', 'Purple']",D
+41,72754,3306168,34.05637286,-118.2748912,Westlake / MacArthur Park Station,"['Red', 'Purple']",D
+42,72755,3306169,34.04863885,-118.2586942,7th St / Metro Center Station,"['Red', 'Purple']",D
+43,72756,3306170,34.04932086,-118.2512712,Pershing Square Station,"['Red', 'Purple']",D
+44,72757,3306171,34.05490486,-118.2460692,Civic Center / Grand Park Station,"['Red', 'Purple']",D
+45,72758,3306172,34.05620186,-118.2342612,Union Station,"['Red', 'Purple']",D
+62,72775,3306189,34.03340286,-118.1544812,Atlantic Station,['Gold'],E
+63,72776,3306190,34.03336886,-118.1612182,East LA Civic Center Station,['Gold'],E
+64,72777,3306191,34.03332386,-118.1681522,Maravilla Station,['Gold'],E
+65,72778,3306192,34.03430486,-118.1921942,Indiana Station,['Gold'],E
+66,72779,3306193,34.04375186,-118.2100732,Soto Station,['Gold'],E
+67,72780,3306194,34.04721986,-118.2196602,Mariachi Plaza / Boyle Heights Station,['Gold'],E
+68,72781,3306195,34.04763886,-118.2259522,Pico / Aliso Station,['Gold'],E
+129,72842,3306256,34.04884218,-118.2387869,Little Tokyo/Arts District,"['Blue', 'Expo']",E
+128,72841,3306255,34.05203893,-118.2461664,Historic Broadway,"['Blue', 'Expo']",E
+127,72840,3306254,34.05475059,-118.2512082,Grand Av Arts/Bunker Hill,"['Blue', 'Expo']",E
+19,72732,3306146,34.04861486,-118.2588342,7th St / Metro Center Station,"['Blue', 'Expo']",E
+18,72731,3306145,34.04073985,-118.2661302,Pico Station,"['Blue', 'Expo']",E
+20,72733,3306147,34.02911685,-118.2736152,LATTC / Ortho Institute Station,['Expo'],E
+21,72734,3306148,34.02212785,-118.2781302,Jefferson / USC Station,['Expo'],E
+22,72735,3306149,34.01823185,-118.2857462,Expo Park / USC Station,['Expo'],E
+23,72736,3306150,34.01824985,-118.2915522,Expo / Vermont Station,['Expo'],E
+24,72737,3306151,34.01833585,-118.3089222,Expo / Western Station,['Expo'],E
+25,72738,3306152,34.02253085,-118.3350902,Expo / Crenshaw Station,['Expo'],E
+26,72739,3306153,34.02398585,-118.3461072,Farmdale Station,['Expo'],E
+27,72740,3306154,34.02480785,-118.3551712,Expo / La Brea Station,['Expo'],E
+28,72741,3306155,34.02635985,-118.3721322,La Cienega / Jefferson Station,['Expo'],E
+29,72742,3306156,34.02790085,-118.3889982,Culver City Station,['Expo'],E
+83,72796,3306210,34.02932784,-118.4042672,Palms Station,['Expo'],E
+84,72797,3306211,34.03682084,-118.4245882,Westwood / Rancho Park Station,['Expo'],E
+85,72798,3306212,34.03541284,-118.4342462,Expo / Sepulveda Station,['Expo'],E
+86,72799,3306213,34.03170984,-118.4529082,Expo / Bundy Station,['Expo'],E
+87,72800,3306214,34.02799984,-118.4691322,26th St / Bergamot Station,['Expo'],E
+88,72801,3306215,34.02315984,-118.4803842,17th St / SMC Station,['Expo'],E
+89,72802,3306216,34.01401484,-118.4913962,Downtown Santa Monica Station,['Expo'],E
+116,72829,3306243,34.2521972,-118.5993797,Chatsworth Metro Station,['Orange'],G
+115,72828,3306242,34.23592131,-118.5971927,Nordhoff Metro Station North Bound,['Orange'],G
+114,72827,3306241,34.23498563,-118.5971931,Nordhoff Metro Station South Bound,['Orange'],G
+113,72826,3306240,34.22047153,-118.5970328,Roscoe Metro Station North Bound,['Orange'],G
+112,72825,3306239,34.21937541,-118.5970485,Roscoe Metro Station South Bound,['Orange'],G
+111,72824,3306238,34.20050779,-118.5971486,Sherman Way Metro Station,['Orange'],G
+110,72823,3306237,34.19136029,-118.5964455,Canoga Metro Station North-South,['Orange'],G
+96,72809,3306223,34.18154485,-118.6014123,Warner Center Metro Station,['Orange'],G
+97,72810,3306224,34.19056485,-118.5968923,Canoga Metro Station East-West,['Orange'],G
+98,72811,3306225,34.18871485,-118.5887023,De Soto Metro Station,['Orange'],G
+99,72812,3306226,34.18696485,-118.5705623,Pierce College Metro Station,['Orange'],G
+100,72813,3306227,34.18105485,-118.5530923,Tampa Metro Station,['Orange'],G
+101,72814,3306228,34.18045485,-118.5365023,Reseda Metro Station,['Orange'],G
+102,72815,3306229,34.18600486,-118.5005822,Balboa Metro Station,['Orange'],G
+103,72816,3306230,34.18631486,-118.4841522,Woodley Metro Station,['Orange'],G
+104,72817,3306231,34.18085486,-118.4687622,Sepulveda Metro Station,['Orange'],G
+105,72818,3306232,34.18046486,-118.4481522,Van Nuys Metro Station,['Orange'],G
+106,72819,3306233,34.17899486,-118.4297122,Woodman Metro Station,['Orange'],G
+107,72820,3306234,34.17176486,-118.4220922,Valley College Metro Station,['Orange'],G
+109,72822,3306236,34.16856486,-118.3970522,Laurel Canyon Metro Station,['Orange'],G
+108,72821,3306235,34.16881486,-118.3775322,North Hollywood Metro Station,['Orange'],G
+117,72830,3306244,34.02245314,-118.3350902,Expo/Crenshaw Station,['K'],K
+118,72831,3306245,34.01016656,-118.335347,Martin Luther King Jr Station,['K'],K
+119,72832,3306246,34.00458152,-118.3326646,Leimert Park Station,['K'],K
+120,72833,3306247,33.98828975,-118.3308357,Hyde Park Station,['K'],K
+121,72834,3306248,33.97528429,-118.3360302,Fairview Heights Station,['K'],K
+122,72835,3306249,33.96729917,-118.3513927,Downtown Inglewood Station,['K'],K
+123,72836,3306250,33.96202081,-118.3744553,Westchester/Veterans Station,['K'],K
+124,72837,3306251,33.94962547,-118.378663,LAX/Metro Transit Center Station,['K'],K
+125,72838,3306252,33.94567805,-118.3787027,Aviation/Century Station,['K'],K
+126,72839,3306253,33.92963484,-118.3772708,Aviation/LAX Station,['K'],K
