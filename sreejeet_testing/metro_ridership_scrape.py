@@ -86,7 +86,6 @@ for month in months:
 """
 # Selenium usage
 
-"""
 driver = webdriver.Chrome()
 driver.get("https://isotp.metro.net/MetroRidership/YearOverYear.aspx")
 
@@ -104,5 +103,4 @@ for option in all_options:
       # soup = BeautifulSoup(r.content, 'html.parser')
       # parse_ridership(list_of_ids) 
 driver.quit()
-"""
 
