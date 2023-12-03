@@ -8,7 +8,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 
 headers = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9"}
-url = "https://isotp.metro.net/MetroRidership/YearOverYear.aspx" # this url redirects to 2023 October as the dropdown data
+url = "https://isotp.metro.net/MetroRidership/YearOverYear.aspx"
 
 def parse_ridership(list_of_ids):
    dataframes_by_line = []
@@ -33,7 +33,6 @@ def parse_ridership(list_of_ids):
    return dataframes_by_line
 
 with requests.Session() as s:
-   # months = [2]
    # header = {"Content-type": "application/x-www-form-urlencoded", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"}
    
    r = requests.get(url=url, headers=headers, verify=False)
@@ -46,6 +45,7 @@ with requests.Session() as s:
                   "ContentPlaceHolder1_rpRailRidership_rpRailGreen_gvRailGreen",
                   "ContentPlaceHolder1_rpRailRidership_rpRailGold_gvRailGold"]  
    rider_dataframe = parse_ridership(list_of_ids)
+   print(rider_dataframe, '\n')
  
    # Now rider dataframe has information about the ridership by line
    # We can now use Pandas to manipulate this data and assign weights
@@ -60,9 +60,10 @@ with requests.Session() as s:
       try:
          rider_dataframe[df_index].loc['Proportion of Total Boardings'] = rider_dataframe[df_index].loc['Total Boardings'].str.replace(",", "").astype(int) / sys_ridership
       except ValueError as e:
-         print("ValueError:", e)
+         # print("ValueError:", e)
          continue
-      print(rider_dataframe[df_index])
+      # print(rider_dataframe[df_index])
+   print(rider_dataframe)
 
 
 # Now dataframe of initial url info printed to console
@@ -83,7 +84,6 @@ for month in months:
       
    soup = BeautifulSoup(r.content, 'html.parser')
    parse_ridership(list_of_ids)
-"""
 # Selenium usage
 
 driver = webdriver.Chrome()
@@ -103,4 +103,48 @@ for option in all_options:
       # soup = BeautifulSoup(r.content, 'html.parser')
       # parse_ridership(list_of_ids) 
 driver.quit()
+"""
+
+"""
+# Selenium usage
+driver = webdriver.Chrome()
+driver.get("https://isotp.metro.net/MetroRidership/YearOverYear.aspx")
+
+# Month element
+element = driver.find_element(By.XPATH, "//select[@name='ctl00$ContentPlaceHolder1$ddlPeriod']")
+all_options = element.find_elements(By.TAG_NAME, 'option')
+for option in all_options:
+   print("Value is: %s" % option.get_attribute("value"))
+   option.click()
+   month_val = option.text
+   if month_val in months:  
+      if month_val != "November" or month_val != "December":
+         # Navigate to submit button
+         driver.find_element(By.ID, "ContentPlaceHolder1_btnSubmit").click()
+      
+         soup = BeautifulSoup(driver.page_source, 'html.parser')
+         rider_dataframe = parse_ridership(list_of_ids, soup)
+         
+         # Now rider dataframe has information about the ridership by line
+         # We can now use Pandas to manipulate this data and assign weights
+
+         # This gets just the total_ridership row, which is in the first dataframe in the rider_dataframe list
+         sys_ridership = rider_dataframe[0].loc["Total Boardings"].str.replace(",", "").astype(int)
+
+         # Now we have total ridership for the month for 3 years (i.e. 2023-2021)
+         # We want to consider the proportions for each of the other dataframes, and add this as another row
+
+         for df_index in range(1, len(rider_dataframe)):
+            try:
+               rider_dataframe[df_index].loc['Proportion of Total Boardings'] = rider_dataframe[df_index].loc['Total Boardings'].str.replace(",", "").astype(int) / sys_ridership
+            except ValueError as e:
+               pass
+         print("Ridership for month:", month_val, '\n')
+         print(rider_dataframe)
+         list_of_ridership_dataframes.append(rider_dataframe)
+ 
+         time.sleep(5)
+
+driver.quit()
+"""
 
