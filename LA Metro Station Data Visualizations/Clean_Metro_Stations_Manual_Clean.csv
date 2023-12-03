@@ -1,4 +1,4 @@
-,OBJECTID,post_id,latitude,longitude,Name,Lines,Line Color
+,OBJECTID,post_id,Latitude,Longitude,Name,Lines,Line
 31,72744,3306158,33.77360283,-118.1894242,5th Street Station,['Blue'],A
 ,72743,3306157,33.76874483,-118.1893742,1st Street Station,['Blue'],A
 0,72713,3306127,33.76807583,-118.1929332,Downtown Long Beach Station,['Blue'],A

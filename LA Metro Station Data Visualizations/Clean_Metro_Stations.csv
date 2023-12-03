@@ -1,4 +1,4 @@
-,OBJECTID,post_id,latitude,longitude,Name,Lines,Line Color
+,OBJECTID,post_id,latitude,longitude,Name,Lines,Line
 0,72713,3306127,33.76807583,-118.19293316,Downtown Long Beach Station,['Blue'],Blue
 1,72714,3306128,33.77226283,-118.19371216,Pacific Ave Station,['Blue'],Blue
 2,72715,3306129,33.78183483,-118.18939616,Anaheim Street Station,['Blue'],Blue
