@@ -84,8 +84,10 @@ def selenium_driver(month: str, year: str, list_of_ids: list):
    # We can now use Pandas to manipulate this data and assign weights
 
    # This gets just the total_ridership row, which is in the first dataframe in the rider_dataframe list
-   sys_ridership = rider_dataframes[0].loc["Total Boardings"].str.replace(",", "").astype(int)
-
+   try:
+      sys_ridership = rider_dataframes[0].loc["Total Boardings"].str.replace(",", "").astype(int)
+   except ValueError:
+      return f"No ridership data for {month} {year}"
    # Now we have total ridership for the month for 3 years (i.e. 2023-2021)
    # We want to consider the proportions for each of the other dataframes, and add this as another row
 
@@ -106,8 +108,20 @@ if __name__ == "__main__":
                   "ContentPlaceHolder1_rpRailRidership_rpRailGreen_gvRailGreen",
                   "ContentPlaceHolder1_rpRailRidership_rpRailGold_gvRailGold"]
    
-   month_input = input("Enter month for ridership data")
-   year_input = input("Enter year for ridership data")
-   print(f"Ridership for {month_input} {year_input}")
-   print(selenium_driver(month_input, year_input, list_of_ids))
+   # For our purposes, we will consider data for August - October 2023
+   # We can enter many months within a given calendar year
+   months = input("Enter month for ridership data: ").split()
+   year_input = input("Enter year for ridership data: ")
+  
+   for month in months: 
+      list_of_dataframes = selenium_driver(month, year_input, list_of_ids)
+      if type(list_of_dataframes) != str:
+         print(f"Ridership for {month} {year_input}")
+         print(list_of_dataframes)
+      
+         for index, dataframe in enumerate(list_of_dataframes):
+            rail_line = list_of_ids[index].split("_")[-1]
+            dataframe.to_csv(rail_line+month+year_input+'.csv')
+      else:
+         print(list_of_dataframes)
 
