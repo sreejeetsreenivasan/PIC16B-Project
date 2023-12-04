@@ -20,7 +20,7 @@
 16,72729,3306143,34.02681185,-118.2555172,San Pedro Street Station,['Blue'],A
 17,72730,3306144,34.03315985,-118.2693452,Grand / LATTC Station,['Blue'],A
 18,72731,3306145,34.04073985,-118.2661302,Pico Station,"['Blue', 'Expo']",A
-19,72732,3306146,34.04861486,-118.2588342,7th St / Metro Center Station,"['Blue', 'Expo']",A
+19,72732,3306146,34.04861486,-118.2588342,7th Street / Metro Center Station,"['Blue', 'Expo']",A
 127,72840,3306254,34.05475059,-118.2512082,Grand Av Arts/Bunker Hill,"['Blue', 'Expo']",A
 128,72841,3306255,34.05203893,-118.2461664,Historic Broadway,"['Blue', 'Expo']",A
 129,72842,3306256,34.04884218,-118.2387869,Little Tokyo/Arts District,"['Blue', 'Expo']",A
@@ -53,7 +53,7 @@
 39,72752,3306166,34.07653086,-118.2916982,Vermont / Beverly Station,['Red'],B
 40,72753,3306167,34.06270585,-118.2900942,Wilshire / Vermont Station,"['Red', 'Purple']",B
 41,72754,3306168,34.05637286,-118.2748912,Westlake / MacArthur Park Station,"['Red', 'Purple']",B
-42,72755,3306169,34.04863885,-118.2586942,7th St / Metro Center Station,"['Red', 'Purple']",B
+42,72755,3306169,34.04863885,-118.2586942,7th Street / Metro Center Station,"['Red', 'Purple']",B
 43,72756,3306170,34.04932086,-118.2512712,Pershing Square Station,"['Red', 'Purple']",B
 44,72757,3306171,34.05490486,-118.2460692,Civic Center / Grand Park Station,"['Red', 'Purple']",B
 45,72758,3306172,34.05620186,-118.2342612,Union Station,"['Red', 'Purple']",B
@@ -75,7 +75,7 @@
 46,72759,3306173,34.06175785,-118.3014702,Wilshire / Normandie Station,['Purple'],D
 40,72753,3306167,34.06270585,-118.2900942,Wilshire / Vermont Station,"['Red', 'Purple']",D
 41,72754,3306168,34.05637286,-118.2748912,Westlake / MacArthur Park Station,"['Red', 'Purple']",D
-42,72755,3306169,34.04863885,-118.2586942,7th St / Metro Center Station,"['Red', 'Purple']",D
+42,72755,3306169,34.04863885,-118.2586942,7th Street / Metro Center Station,"['Red', 'Purple']",D
 43,72756,3306170,34.04932086,-118.2512712,Pershing Square Station,"['Red', 'Purple']",D
 44,72757,3306171,34.05490486,-118.2460692,Civic Center / Grand Park Station,"['Red', 'Purple']",D
 45,72758,3306172,34.05620186,-118.2342612,Union Station,"['Red', 'Purple']",D
@@ -89,7 +89,7 @@
 129,72842,3306256,34.04884218,-118.2387869,Little Tokyo/Arts District,"['Blue', 'Expo']",E
 128,72841,3306255,34.05203893,-118.2461664,Historic Broadway,"['Blue', 'Expo']",E
 127,72840,3306254,34.05475059,-118.2512082,Grand Av Arts/Bunker Hill,"['Blue', 'Expo']",E
-19,72732,3306146,34.04861486,-118.2588342,7th St / Metro Center Station,"['Blue', 'Expo']",E
+19,72732,3306146,34.04861486,-118.2588342,7th Street / Metro Center Station,"['Blue', 'Expo']",E
 18,72731,3306145,34.04073985,-118.2661302,Pico Station,"['Blue', 'Expo']",E
 20,72733,3306147,34.02911685,-118.2736152,LATTC / Ortho Institute Station,['Expo'],E
 21,72734,3306148,34.02212785,-118.2781302,Jefferson / USC Station,['Expo'],E
@@ -105,8 +105,8 @@
 84,72797,3306211,34.03682084,-118.4245882,Westwood / Rancho Park Station,['Expo'],E
 85,72798,3306212,34.03541284,-118.4342462,Expo / Sepulveda Station,['Expo'],E
 86,72799,3306213,34.03170984,-118.4529082,Expo / Bundy Station,['Expo'],E
-87,72800,3306214,34.02799984,-118.4691322,26th St / Bergamot Station,['Expo'],E
-88,72801,3306215,34.02315984,-118.4803842,17th St / SMC Station,['Expo'],E
+87,72800,3306214,34.02799984,-118.4691322,26th Street / Bergamot Station,['Expo'],E
+88,72801,3306215,34.02315984,-118.4803842,17th Street / SMC Station,['Expo'],E
 89,72802,3306216,34.01401484,-118.4913962,Downtown Santa Monica Station,['Expo'],E
 116,72829,3306243,34.2521972,-118.5993797,Chatsworth Metro Station,['Orange'],G
 115,72828,3306242,34.23592131,-118.5971927,Nordhoff Metro Station North Bound,['Orange'],G
