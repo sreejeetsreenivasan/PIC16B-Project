@@ -11,6 +11,10 @@ def to_int(l):
 def route_id(i, station_list):
     """
     Function that returns list of ID's given input route ID number
+
+    :param i: the input route id
+    :param station_list: list of the stations
+    :return: list of the station ID for that route i
     """
     return [j for j in station_list if str(j)[0:3] == f"80{i}"]
 
@@ -18,6 +22,7 @@ def route_id(i, station_list):
 def station_id_to_index(station_id_list, nodelist):
     """
     Will get a list of the indices of your stations in the node list
+    
     :param station_id_list: the stop id of your stations
     :return: the list of the indices correlated with the stop id in node list
     """
@@ -32,6 +37,7 @@ def station_id_to_index(station_id_list, nodelist):
 def index_to_station_id(index_list, nodelist):
     """
     Will get a list of the station id of your index in the node list
+
     :param index_list: the list of indices
     :return: the list of station id's correlated to node list
     """
@@ -46,6 +52,7 @@ def index_to_station_id(index_list, nodelist):
 def rlp(f, adjacency, epsilon, max_l=3):
     """
     Implementing the RLP algorithm into python
+
     :param f: 1xN vector, components corresponding to target nodes are 1 and 0 otherwise
     :param adjacency: NxN adjacecny matrix of our network
     :param epsilon: tunable parameter controlling weight of the paths with different lengths
@@ -64,11 +71,18 @@ def rlp(f, adjacency, epsilon, max_l=3):
 def get_ranked_stations(array, nodelist):
     """
     Take the ranking and convert the numbers to stations
+
     :param array: the calculated stations
     :return: the station's that are important
     """
 
     def merge(list1, list2):
+        """
+
+        :param list1:
+        :param list2:
+        :return:
+        """
         merged_list = [(list1[i], list2[i]) for i in range(0, len(list1))]
         return merged_list
 
