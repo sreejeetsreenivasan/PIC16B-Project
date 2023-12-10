@@ -9,15 +9,15 @@ def to_int(l):
     return [int(i) for i in l]
 
 
-def route_id(i, station_list):
+def route_id(i, node_list):
     """
     Function that returns list of ID's given input route ID number
 
     :param i: the input route id
-    :param station_list: list of the stations
+    :param node_list: list of the stations
     :return: list of the station ID for that route i
     """
-    return [j for j in station_list if str(j)[0:3] == f"80{i}"]
+    return [j for j in node_list if str(j)[0:3] == f"80{i}"]
 
 
 def station_id_to_index(station_id_list, nodelist):
