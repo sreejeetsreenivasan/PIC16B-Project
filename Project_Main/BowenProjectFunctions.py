@@ -22,7 +22,7 @@ def route_id(i, station_list):
 def station_id_to_index(station_id_list, nodelist):
     """
     Will get a list of the indices of your stations in the node list
-    
+
     :param station_id_list: the stop id of your stations
     :return: the list of the indices correlated with the stop id in node list
     """
@@ -70,7 +70,7 @@ def rlp(f, adjacency, epsilon, max_l=3):
 
 def get_ranked_stations(array, nodelist):
     """
-    Take the ranking and convert the numbers to stations
+    Take the ranking and convert the numbers to stations.
 
     :param array: the calculated stations
     :return: the station's that are important
@@ -78,10 +78,12 @@ def get_ranked_stations(array, nodelist):
 
     def merge(list1, list2):
         """
+        We will merge two lists together.
+        The objects at the same index will be joined into tuples and inserted into a list.
 
-        :param list1:
-        :param list2:
-        :return:
+        :param list1: the first list to be merged
+        :param list2: the second list to be merged
+        :return: list of tuples
         """
         merged_list = [(list1[i], list2[i]) for i in range(0, len(list1))]
         return merged_list
@@ -92,6 +94,7 @@ def get_ranked_stations(array, nodelist):
     for i in indices:
         values.append(array[0][i])
 
+    # obtain the station id's from the obtained indices
     stations = index_to_station_id(indices, nodelist)
 
     # Create list of tuples (station, value of station)
@@ -106,6 +109,12 @@ def get_ranked_stations(array, nodelist):
 
 
 def normalize_graph(G):
+    """
+    Take a graph object and normalize all its edges to a normal distrubution centered at 1 and std deviation of 1/5.
+
+    :param G: Graph object from NetworkX
+    :return: Normalized graph object from NetworkX
+    """
     # Get list of old edge weights
     old_edge_weights = [data['weight'] for node1, node2, data in G.edges(data=True)]
     # Calculate mean of old edge weights
