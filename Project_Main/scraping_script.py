@@ -108,7 +108,7 @@ if __name__ == "__main__":
                   "ContentPlaceHolder1_rpRailRidership_rpRailGreen_gvRailGreen",
                   "ContentPlaceHolder1_rpRailRidership_rpRailGold_gvRailGold"]
    
-   # For our purposes, we will consider data for August - October 2023
+   # For our purposes, we will consider data for January - March 2023
    # We can enter many months within a given calendar year
    months = input("Enter month for ridership data: ").split()
    year_input = input("Enter year for ridership data: ")
